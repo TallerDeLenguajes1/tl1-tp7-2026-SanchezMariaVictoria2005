@@ -6,7 +6,7 @@ namespace EspacioCalculadora
 
         public void Sumar (double termino)
         {
-            
+            dato = dato + termino;
         }
     }
 }
