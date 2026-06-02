@@ -33,6 +33,11 @@ namespace EspacioEmpleados
             get => fechaNacimiento;
         }
 
+        public double SueldoBasico //propiedada para acceder al sueldo basico
+        {
+            get => sueldoBasico;
+        }
+
         //metodos
         public int Antiguedad()
         {
