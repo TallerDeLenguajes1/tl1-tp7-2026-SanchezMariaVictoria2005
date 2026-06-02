@@ -9,6 +9,11 @@ namespace EspacioCalculadora
             dato = dato + termino;
         }
 
+        public void Restar(double termino)
+        {
+            dato = dato - termino;
+        }
+
         public Calculadora()
         {
             dato = 0 ;
