@@ -14,6 +14,11 @@ namespace EspacioCalculadora
             dato = dato - termino;
         }
 
+        public void multiplicar(double termino)
+        {
+            dato = dato * termino; 
+        }
+
         public Calculadora()
         {
             dato = 0 ;
