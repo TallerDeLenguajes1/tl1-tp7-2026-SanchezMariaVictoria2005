@@ -9,7 +9,16 @@ namespace Empleados
         private DateTime fechaIngreso;
         private double sueldoBasico;
 
-        //private cargos Cargo
+        private Cargos cargo;
 
+    }
+
+    enum Cargos
+    {
+       Auxiliar, 
+       Administrativo,
+       Ingeniero,
+       Especialista,
+       Investigado 
     }
 }
