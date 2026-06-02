@@ -19,6 +19,13 @@ namespace EspacioCalculadora
             dato = dato * termino; 
         }
 
+        public void Dividir(double termino)
+        {
+            if (termino != 0)
+            {
+                dato = dato / termino;
+            }
+        }
         public Calculadora()
         {
             dato = 0 ;
