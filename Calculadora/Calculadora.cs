@@ -26,10 +26,17 @@ namespace EspacioCalculadora
                 dato = dato / termino;
             }
         }
+
+        public void Limpiar()
+        {
+            dato = 0 ;
+        }
         public Calculadora()
         {
             dato = 0 ;
         }
+
+
 
     }
 
