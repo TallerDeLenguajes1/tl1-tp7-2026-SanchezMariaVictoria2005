@@ -28,12 +28,18 @@ namespace EspacioEmpleados
             get => fechaIngreso;
         }
 
+        public DateTime FechaNacimiento //propiedad para acceder a la fecha de nacimiento
+        {
+            get => fechaNacimiento;
+        }
 
         //metodos
         public int Antiguedad()
         {
             return DateTime.Today.Year - fechaIngreso.Year;
         }
+
+        
 
     }
 
