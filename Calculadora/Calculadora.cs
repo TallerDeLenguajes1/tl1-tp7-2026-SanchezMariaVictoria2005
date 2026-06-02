@@ -8,11 +8,14 @@ namespace EspacioCalculadora
         {
             dato = dato + termino;
         }
-    }
 
-    public Calculadora()
+        public Calculadora()
         {
             dato = 0 ;
         }
+
+    }
+
+    
 
 }
