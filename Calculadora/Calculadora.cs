@@ -27,7 +27,7 @@ namespace EspacioCalculadora
             }
         }
 
-        public void Limpiar()
+        public void Limpiar() //funcionando
         {
             dato = 0 ;
         }
