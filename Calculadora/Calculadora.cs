@@ -36,7 +36,7 @@ namespace EspacioCalculadora
             dato = 0 ;
         }
 
-        public double Resultado
+        public double Resultado //fumcionando
         {
             get => dato;
         }
