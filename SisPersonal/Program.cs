@@ -6,5 +6,6 @@ Empleado empleado1 = new Empleado("yo", "diaz", fechaNacimiento, 'c', fechaIngre
 empleado1.Antiguedad();
 Console.WriteLine(empleado1.FechaIngreso);
 Console.WriteLine(empleado1.FechaNacimiento);
+empleado1.Edad();
 
 Console.WriteLine("fin del programa");
