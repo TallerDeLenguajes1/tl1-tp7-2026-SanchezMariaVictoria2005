@@ -1,4 +1,4 @@
-namespace Empleados
+namespace EspacioEmpleados
 {
     public class Empleado
     {
