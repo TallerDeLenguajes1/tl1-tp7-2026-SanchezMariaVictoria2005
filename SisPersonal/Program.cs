@@ -9,4 +9,7 @@ Console.WriteLine(empleado1.FechaIngreso);
 Console.WriteLine(empleado1.FechaNacimiento);
 empleado1.Edad();
 empleado1.jubilacion();
+Console.WriteLine(empleado1.SueldoBasico);
+
+
 Console.WriteLine("fin del programa");
