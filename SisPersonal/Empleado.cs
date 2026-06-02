@@ -39,7 +39,10 @@ namespace EspacioEmpleados
             return DateTime.Today.Year - fechaIngreso.Year;
         }
 
-        
+        public int Edad()
+        {
+            return DateTime.Today.Year - fechaNacimiento.Year;
+        }
 
     }
 
