@@ -22,6 +22,11 @@ namespace EspacioEmpleados
             this.cargo = (Cargos)cargo;
         }
 
+        public DateTime FechaIngreso //propiedad para acceder a la fecha de ingreso
+        {
+            get => FechaIngreso;
+        }
+
     }
 
     enum Cargos
