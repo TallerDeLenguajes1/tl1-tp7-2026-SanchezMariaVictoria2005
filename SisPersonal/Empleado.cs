@@ -46,7 +46,7 @@ namespace EspacioEmpleados
 
         public int jubilacion()
         {
-            return 65 - fechaIngreso.Year;
+            return 65 - Edad();
         }
     }
 
