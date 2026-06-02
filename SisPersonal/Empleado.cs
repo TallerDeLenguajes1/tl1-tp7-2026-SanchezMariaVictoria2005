@@ -22,9 +22,17 @@ namespace EspacioEmpleados
             this.cargo = (Cargos)cargo;
         }
 
+        //propiedades
         public DateTime FechaIngreso //propiedad para acceder a la fecha de ingreso
         {
-            get => FechaIngreso;
+            get => fechaIngreso;
+        }
+
+
+        //metodos
+        public int Antiguedad()
+        {
+            return DateTime.Today.Year - fechaIngreso.Year;
         }
 
     }
