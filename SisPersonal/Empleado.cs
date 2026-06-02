@@ -44,6 +44,10 @@ namespace EspacioEmpleados
             return DateTime.Today.Year - fechaNacimiento.Year;
         }
 
+        public int jubilacion()
+        {
+            return 65 - fechaIngreso.Year;
+        }
     }
 
     enum Cargos
