@@ -38,6 +38,8 @@ namespace EspacioEmpleados
             get => sueldoBasico;
         }
 
+        
+
         //metodos
         public int Antiguedad()
         {
@@ -53,7 +55,35 @@ namespace EspacioEmpleados
         {
             return 65 - Edad();
         }
+
+
+        public double Salario()
+        {
+            double adicional = 0;
+            if (1 <= Antiguedad() && Antiguedad() < 20)
+            {
+                adicional += sueldoBasico * 0.01;
+            }
+            else
+            {
+                adicional += sueldoBasico * 0.25;
+            }
+
+            //aqui van los cargos 
+            if (cargo == Cargos.Ingeniero || cargo == Cargos.Especialista)
+            {
+                adicional += SueldoBasico * 0.50;
+            }
+            
+            if (estadoCivil == 'c')
+            {
+                adicional += 150000;
+            }
+            
+            return (sueldoBasico + adicional);
+        }
     }
+        
 
     enum Cargos
     {
