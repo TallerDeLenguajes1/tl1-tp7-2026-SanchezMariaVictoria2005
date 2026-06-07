@@ -62,17 +62,17 @@ namespace EspacioEmpleados
             double adicional = 0;
             if (1 <= Antiguedad() && Antiguedad() < 20)
             {
-                adicional += sueldoBasico * 0.01;
+                adicional += (sueldoBasico * 0.01) * Antiguedad();
             }
             else
             {
-                adicional += sueldoBasico * 0.25;
+                adicional += (sueldoBasico * 0.25) * Antiguedad();
             }
 
             //aqui van los cargos 
             if (cargo == Cargos.Ingeniero || cargo == Cargos.Especialista)
             {
-                adicional += SueldoBasico * 0.50;
+                adicional += adicional * 0.50;
             }
             
             if (estadoCivil == 'c')
